@@ -1,9 +1,9 @@
-import React, { useContext } from 'react';
-import { TodoContext } from '../contexts/TodoContext';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers';
-import * as yup from 'yup';
-import { TodoContextType } from '../contexts/TodoContextType';
+import React, { useContext } from 'react'
+import { TodoContext } from '../contexts/TodoContext'
+import { useForm } from 'react-hook-form'
+import { yupResolver } from '@hookform/resolvers/yup'
+import * as yup from 'yup'
+import { TodoContextType } from '../contexts/TodoContextType'
 
 // npm install react-hook-form yup @types/yup @hookform/resolvers
 
